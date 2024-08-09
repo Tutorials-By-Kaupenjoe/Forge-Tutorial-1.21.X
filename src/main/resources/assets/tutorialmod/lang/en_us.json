@@ -1,4 +1,7 @@
 {
   "item.tutorialmod.alexandrite": "Alexandrite Gem",
-  "item.tutorialmod.raw_alexandrite": "Raw Alexandrite"
+  "item.tutorialmod.raw_alexandrite": "Raw Alexandrite",
+
+  "block.tutorialmod.alexandrite_block": "Block of Alexandrite",
+  "block.tutorialmod.raw_alexandrite_block": "Block of Raw Alexandrite"
 }
