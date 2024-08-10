@@ -2,6 +2,7 @@ package net.kaupenjoe.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.kaupenjoe.tutorialmod.block.ModBlocks;
+import net.kaupenjoe.tutorialmod.item.ModCreativeModeTabs;
 import net.kaupenjoe.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -31,6 +32,8 @@ public class TutorialMod {
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
