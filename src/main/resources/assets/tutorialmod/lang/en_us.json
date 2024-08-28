@@ -16,5 +16,12 @@
 
 
   "creativetab.tutorialmod.alexandrite_items": "Alexandrite Items",
-  "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blocks"
+  "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blocks",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This Block is quite §9MAGICAL§r",
+
+  "tooltip.tutorialmod.chisel.shift_down": "This Item changes certain Blocks",
+  "tooltip.tutorialmod.chisel": "Press §eShift§r for more Information!",
+
+  "tooltip.tutorialmod.kohlrabi": "This tastes GREAT!"
 }
