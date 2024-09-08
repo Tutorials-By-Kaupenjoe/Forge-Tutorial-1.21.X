@@ -1,5 +1,14 @@
-// 1.21.1	2024-09-08T15:58:30.9652384	Loot Tables
+// 1.21.1	2024-09-08T18:15:24.3898587	Loot Tables
 082d4a4dfab54d4b7c02bf12577180f310c2d578 data/tutorialmod/loot_table/blocks/alexandrite_block.json
+46e710e38ef1ab93beb058251930a04c2cbddd5f data/tutorialmod/loot_table/blocks/alexandrite_button.json
 f7b3ea3062e84cdb440921da78ef9b4e238b3c06 data/tutorialmod/loot_table/blocks/alexandrite_deepslate_ore.json
+b72c400030ea1ccf27426f8d73867419ccddb621 data/tutorialmod/loot_table/blocks/alexandrite_door.json
+b5e495a6de2826791cd47eb7467577f9caf6dd48 data/tutorialmod/loot_table/blocks/alexandrite_fence.json
+cb5321b97cfcf3075de023120bc9c2d0e9e7eb8f data/tutorialmod/loot_table/blocks/alexandrite_fence_gate.json
 bdd7a2e30367770ec0a2a55c561c365b9b8c5159 data/tutorialmod/loot_table/blocks/alexandrite_ore.json
+ee93b2bc9ee8a805342093a207dff9ae5c04a6ab data/tutorialmod/loot_table/blocks/alexandrite_pressure_plate.json
+de6ba9ec151941ccebacc14bac881676f4c6bc0c data/tutorialmod/loot_table/blocks/alexandrite_slab.json
+65d2d4fea729971b5556cab76633fa9ca2c92c78 data/tutorialmod/loot_table/blocks/alexandrite_stairs.json
+02cfd02eadfa7df2c31c900ae837e324bff75ded data/tutorialmod/loot_table/blocks/alexandrite_trapdoor.json
+31070ef777bbb4e9bfa7948918cd4ea4f1b40351 data/tutorialmod/loot_table/blocks/alexandrite_wall.json
 b019cac2fb4f4c4c0aca6b3a0ae079a8e6d74f56 data/tutorialmod/loot_table/blocks/raw_alexandrite_block.json

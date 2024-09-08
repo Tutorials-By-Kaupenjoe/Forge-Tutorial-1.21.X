@@ -1,5 +1,9 @@
-// 1.21.1	2024-09-08T16:03:56.8198486	Item Models: tutorialmod
+// 1.21.1	2024-09-08T18:15:24.393373	Item Models: tutorialmod
 9c36309b9b22da0f2a38fda68096fcc3013c449b assets/tutorialmod/models/item/alexandrite.json
+9a4cf3b4fc3a6a6372ea70a3a5572d2c6c3ca1aa assets/tutorialmod/models/item/alexandrite_button.json
+4eba9df595e1c7ced9cd8c0f8f698096a01ce673 assets/tutorialmod/models/item/alexandrite_door.json
+11dfa7af9b5aa4f86ae1094d2cb8d78a81abef0e assets/tutorialmod/models/item/alexandrite_fence.json
+b9a62ed3fc1c7a5a754d17fb335771f6cfa7112d assets/tutorialmod/models/item/alexandrite_wall.json
 0cea8cc5a03c2c4533fb4623452fc74d7754c5fe assets/tutorialmod/models/item/aurora_ashes.json
 69a45d9eda7fcbbb46f3a4bf568243a7b2141123 assets/tutorialmod/models/item/chisel.json
 35fc7dc4a05adc5b9d9bec5dfe1468735a1cc001 assets/tutorialmod/models/item/kohlrabi.json
