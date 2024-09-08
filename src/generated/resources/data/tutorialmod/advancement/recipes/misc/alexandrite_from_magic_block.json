@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_alexandrite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:alexandrite_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:alexandrite_from_magic_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_alexandrite_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:alexandrite_from_magic_block"
+    ]
+  }
+}
