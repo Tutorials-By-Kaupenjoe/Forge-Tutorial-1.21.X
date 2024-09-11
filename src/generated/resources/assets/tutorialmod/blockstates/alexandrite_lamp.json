@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "tutorialmod:block/alexandrite_lamp_off"
+    },
+    "clicked=true": {
+      "model": "tutorialmod:block/alexandrite_lamp_on"
+    }
+  }
+}
