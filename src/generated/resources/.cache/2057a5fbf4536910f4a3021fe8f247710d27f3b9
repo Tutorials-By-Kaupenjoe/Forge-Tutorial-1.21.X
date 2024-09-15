@@ -1,8 +1,13 @@
-// 1.21.1	2024-09-08T18:15:24.393373	Item Models: tutorialmod
+// 1.21.1	2024-09-15T14:05:06.8913766	Item Models: tutorialmod
 9c36309b9b22da0f2a38fda68096fcc3013c449b assets/tutorialmod/models/item/alexandrite.json
+073373f3fe2f1164adae1d7cdcb2e21c2c4c821e assets/tutorialmod/models/item/alexandrite_axe.json
 9a4cf3b4fc3a6a6372ea70a3a5572d2c6c3ca1aa assets/tutorialmod/models/item/alexandrite_button.json
 4eba9df595e1c7ced9cd8c0f8f698096a01ce673 assets/tutorialmod/models/item/alexandrite_door.json
 11dfa7af9b5aa4f86ae1094d2cb8d78a81abef0e assets/tutorialmod/models/item/alexandrite_fence.json
+e705026c5bc5703f9b420ead5dbb8195188b1a71 assets/tutorialmod/models/item/alexandrite_hoe.json
+5d16f7d8001900edd947a850e8efae4885b81f53 assets/tutorialmod/models/item/alexandrite_pickaxe.json
+07de41c754387a15eab20f705cd497ebb16a49d1 assets/tutorialmod/models/item/alexandrite_shovel.json
+15af02b8f5508754ed55d5f952c1d6d7259d325c assets/tutorialmod/models/item/alexandrite_sword.json
 b9a62ed3fc1c7a5a754d17fb335771f6cfa7112d assets/tutorialmod/models/item/alexandrite_wall.json
 0cea8cc5a03c2c4533fb4623452fc74d7754c5fe assets/tutorialmod/models/item/aurora_ashes.json
 69a45d9eda7fcbbb46f3a4bf568243a7b2141123 assets/tutorialmod/models/item/chisel.json
