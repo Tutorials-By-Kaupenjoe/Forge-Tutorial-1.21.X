@@ -1,2 +1,3 @@
-// 1.21.1	2024-09-08T16:09:04.5709784	Tags for minecraft:item mod id tutorialmod
+// 1.21.1	2024-10-01T18:47:02.9098629	Tags for minecraft:item mod id tutorialmod
+dccc833b523f992498faca85f6f541c082859baf data/minecraft/tags/item/trimmable_armor.json
 62546ee5275966887a59aa174122b299c222c977 data/tutorialmod/tags/item/transformable_items.json
