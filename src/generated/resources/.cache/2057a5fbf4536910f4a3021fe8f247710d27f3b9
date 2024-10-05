@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-01T18:47:02.9108621	Item Models: tutorialmod
+// 1.21.1	2024-10-05T19:05:22.8508291	Item Models: tutorialmod
 9c36309b9b22da0f2a38fda68096fcc3013c449b assets/tutorialmod/models/item/alexandrite.json
 073373f3fe2f1164adae1d7cdcb2e21c2c4c821e assets/tutorialmod/models/item/alexandrite_axe.json
 fab521949bb8b5526d5f1e145bf1b1dca7ea8e14 assets/tutorialmod/models/item/alexandrite_boots.json
@@ -39,6 +39,7 @@ da08b9adc5f9cfa39c6bf479a83fb25321bb52a5 assets/tutorialmod/models/item/alexandr
 1af815d72064a44738b8e7f4a185cccf9d70254d assets/tutorialmod/models/item/alexandrite_helmet_quartz_trim.json
 3b9d3cade407266b050c7392a723339432d190c5 assets/tutorialmod/models/item/alexandrite_helmet_redstone_trim.json
 e705026c5bc5703f9b420ead5dbb8195188b1a71 assets/tutorialmod/models/item/alexandrite_hoe.json
+fa5840eb4dec8686f7ca838001ddc0ae39d98217 assets/tutorialmod/models/item/alexandrite_horse_armor.json
 b26c7f65bf510976171efeb089eba2243face2a0 assets/tutorialmod/models/item/alexandrite_leggings.json
 4d604337754e5da4541902bf50897d3a33f9c730 assets/tutorialmod/models/item/alexandrite_leggings_amethyst_trim.json
 87d22d85d8b51293f13b6c5f364f8dd8a87f50d0 assets/tutorialmod/models/item/alexandrite_leggings_copper_trim.json
