@@ -1,4 +1,4 @@
-// 1.21.1	2024-10-05T19:05:22.8508291	Item Models: tutorialmod
+// 1.21.1	2024-10-05T19:30:18.2143415	Item Models: tutorialmod
 9c36309b9b22da0f2a38fda68096fcc3013c449b assets/tutorialmod/models/item/alexandrite.json
 073373f3fe2f1164adae1d7cdcb2e21c2c4c821e assets/tutorialmod/models/item/alexandrite_axe.json
 fab521949bb8b5526d5f1e145bf1b1dca7ea8e14 assets/tutorialmod/models/item/alexandrite_boots.json
@@ -57,5 +57,6 @@ c9f79a217246ec47e233059d3d3d40a2b0eafd4a assets/tutorialmod/models/item/alexandr
 b9a62ed3fc1c7a5a754d17fb335771f6cfa7112d assets/tutorialmod/models/item/alexandrite_wall.json
 0cea8cc5a03c2c4533fb4623452fc74d7754c5fe assets/tutorialmod/models/item/aurora_ashes.json
 69a45d9eda7fcbbb46f3a4bf568243a7b2141123 assets/tutorialmod/models/item/chisel.json
+449182fb0ac0479cfb756ef062a8c183fc5a3c2a assets/tutorialmod/models/item/kaupen_armor_trim_smithing_template.json
 35fc7dc4a05adc5b9d9bec5dfe1468735a1cc001 assets/tutorialmod/models/item/kohlrabi.json
 618bcb87cb7acab7c54afbe2ed857af447c05872 assets/tutorialmod/models/item/raw_alexandrite.json

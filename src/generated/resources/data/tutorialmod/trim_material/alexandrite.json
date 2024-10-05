@@ -1,0 +1,9 @@
+{
+  "asset_name": "alexandrite",
+  "description": {
+    "color": "#031CFC",
+    "translate": "trim_material.tutorialmod.alexandrite"
+  },
+  "ingredient": "tutorialmod:alexandrite",
+  "item_model_index": 0.8
+}

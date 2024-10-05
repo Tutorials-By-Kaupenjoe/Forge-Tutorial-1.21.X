@@ -1,4 +1,4 @@
-// 1.21.1	2024-09-08T18:15:24.3913629	Recipes
+// 1.21.1	2024-10-05T19:30:18.1977816	Recipes
 91a1b0c443bceae33c3283d52470dc8008f27640 data/tutorialmod/advancement/recipes/building_blocks/alexandrite_slab.json
 09362c8a87bacae83d690d6006a61a049f69514d data/tutorialmod/advancement/recipes/building_blocks/alexandrite_stairs.json
 4b42a990260ae614514fc37a4503dd24d0e2b3ec data/tutorialmod/advancement/recipes/building_blocks/alexandrite_wall.json
@@ -12,6 +12,7 @@
 a4fde7cf80ae53b76180e00ab54c4c27d8e6a5e1 data/tutorialmod/advancement/recipes/misc/alexandrite_from_smelting_alexandrite_deepslate_ore.json
 69691d4b95fd90d40fb3c9af14f96763ff393daa data/tutorialmod/advancement/recipes/misc/alexandrite_from_smelting_alexandrite_ore.json
 70839b0f9a2998d6de871cee56a3a4ae04eec51d data/tutorialmod/advancement/recipes/misc/alexandrite_from_smelting_raw_alexandrite.json
+47a7c4ad671425a4c3ad4ced463e5ec11f22b36a data/tutorialmod/advancement/recipes/misc/kaupen.json
 86252337955abfad5e0cdebc23c5c065e4a967b7 data/tutorialmod/advancement/recipes/redstone/alexandrite_button.json
 0e20410fb674950d6b7f8de4227516c2b6bcfbaa data/tutorialmod/advancement/recipes/redstone/alexandrite_door.json
 7d58cb2c514b0631fe542b3e9369306ccf96dd8e data/tutorialmod/advancement/recipes/redstone/alexandrite_fence_gate.json
@@ -35,3 +36,4 @@ a8e7c7455a3fd6dfa23cc043708127df142c4baa data/tutorialmod/recipe/alexandrite_fro
 ab110058520f5d0eeb02b106e753e51cd2232e16 data/tutorialmod/recipe/alexandrite_stairs.json
 b1708962a675ccf49e511c4f3f2a968f620c4cf2 data/tutorialmod/recipe/alexandrite_trapdoor.json
 29b14efaf9f9afbcfc7a0522d48843c71dfda9ec data/tutorialmod/recipe/alexandrite_wall.json
+d217172031c6e0e57ffb4794675db0dc37f1d73f data/tutorialmod/recipe/kaupen.json
