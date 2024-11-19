@@ -1,4 +1,4 @@
-// 1.21.1	2024-09-11T16:41:58.4452247	Loot Tables
+// 1.21.1	2024-11-19T15:33:53.420614	Loot Tables
 082d4a4dfab54d4b7c02bf12577180f310c2d578 data/tutorialmod/loot_table/blocks/alexandrite_block.json
 46e710e38ef1ab93beb058251930a04c2cbddd5f data/tutorialmod/loot_table/blocks/alexandrite_button.json
 f7b3ea3062e84cdb440921da78ef9b4e238b3c06 data/tutorialmod/loot_table/blocks/alexandrite_deepslate_ore.json
@@ -12,4 +12,5 @@ de6ba9ec151941ccebacc14bac881676f4c6bc0c data/tutorialmod/loot_table/blocks/alex
 65d2d4fea729971b5556cab76633fa9ca2c92c78 data/tutorialmod/loot_table/blocks/alexandrite_stairs.json
 02cfd02eadfa7df2c31c900ae837e324bff75ded data/tutorialmod/loot_table/blocks/alexandrite_trapdoor.json
 31070ef777bbb4e9bfa7948918cd4ea4f1b40351 data/tutorialmod/loot_table/blocks/alexandrite_wall.json
+34ce942e7c28bc359a9f2aedc4c7a6eab2ba7248 data/tutorialmod/loot_table/blocks/kohlrabi_crop.json
 b019cac2fb4f4c4c0aca6b3a0ae079a8e6d74f56 data/tutorialmod/loot_table/blocks/raw_alexandrite_block.json

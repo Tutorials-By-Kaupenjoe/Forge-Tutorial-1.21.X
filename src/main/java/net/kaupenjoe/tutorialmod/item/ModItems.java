@@ -1,6 +1,7 @@
 package net.kaupenjoe.tutorialmod.item;
 
 import net.kaupenjoe.tutorialmod.TutorialMod;
+import net.kaupenjoe.tutorialmod.block.ModBlocks;
 import net.kaupenjoe.tutorialmod.item.custom.ChiselItem;
 import net.kaupenjoe.tutorialmod.item.custom.FuelItem;
 import net.kaupenjoe.tutorialmod.item.custom.HammerItem;
@@ -84,6 +85,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).stacksTo(1)));
+
+    public static final RegistryObject<Item> KOHLRABI_SEEDS = ITEMS.register("kohlrabi_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.KOHLRABI_CROP.get(), new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

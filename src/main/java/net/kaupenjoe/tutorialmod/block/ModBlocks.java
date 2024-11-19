@@ -2,6 +2,7 @@ package net.kaupenjoe.tutorialmod.block;
 
 import net.kaupenjoe.tutorialmod.TutorialMod;
 import net.kaupenjoe.tutorialmod.block.custom.AlexandriteLampBlock;
+import net.kaupenjoe.tutorialmod.block.custom.KohlrabiCropBlock;
 import net.kaupenjoe.tutorialmod.block.custom.MagicBlock;
 import net.kaupenjoe.tutorialmod.item.ModItems;
 import net.kaupenjoe.tutorialmod.sound.ModSounds;
@@ -67,6 +68,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> ALEXANDRITE_LAMP = registerBlock("alexandrite_lamp",
             () -> new AlexandriteLampBlock(BlockBehaviour.Properties.of().strength(3f)
                     .lightLevel(state -> state.getValue(AlexandriteLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final RegistryObject<Block> KOHLRABI_CROP = BLOCKS.register("kohlrabi_crop",
+            () -> new KohlrabiCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
