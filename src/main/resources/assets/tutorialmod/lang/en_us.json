@@ -32,6 +32,7 @@
   "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
 
   "item.tutorialmod.kohlrabi_seeds": "Kohlrabi Seeds",
+  "item.tutorialmod.honey_berries": "Honey Berries",
 
 
   "block.tutorialmod.alexandrite_block": "Block of Alexandrite",
@@ -57,7 +58,7 @@
   "block.tutorialmod.alexandrite_lamp": "Alexandrite Lamp",
 
   "block.tutorialmod.kohlrabi_crop": "Kohlrabi Crop",
-
+  "block.tutorialmod.honey_berry_bush": "Honey Berry Bush",
 
   "effect.tutorialmod.slimey": "Slimey",
 

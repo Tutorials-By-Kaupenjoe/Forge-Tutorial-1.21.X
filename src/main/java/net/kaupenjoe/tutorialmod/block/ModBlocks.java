@@ -2,6 +2,7 @@ package net.kaupenjoe.tutorialmod.block;
 
 import net.kaupenjoe.tutorialmod.TutorialMod;
 import net.kaupenjoe.tutorialmod.block.custom.AlexandriteLampBlock;
+import net.kaupenjoe.tutorialmod.block.custom.HoneyBerryBushBlock;
 import net.kaupenjoe.tutorialmod.block.custom.KohlrabiCropBlock;
 import net.kaupenjoe.tutorialmod.block.custom.MagicBlock;
 import net.kaupenjoe.tutorialmod.item.ModItems;
@@ -71,6 +72,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> KOHLRABI_CROP = BLOCKS.register("kohlrabi_crop",
             () -> new KohlrabiCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+    public static final RegistryObject<Block> HONEY_BERRY_BUSH = BLOCKS.register("honey_berry_bush",
+            () -> new HoneyBerryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
