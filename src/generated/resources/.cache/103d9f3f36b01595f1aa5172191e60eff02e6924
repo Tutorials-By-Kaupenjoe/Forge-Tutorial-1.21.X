@@ -1,8 +1,9 @@
-// 1.21.1	2024-11-27T19:30:01.8315014	Registries
+// 1.21.1	2024-11-27T20:36:07.7230758	Registries
 f8fc89db04b1bb78edcee8546fdcb549ad3a97f2 data/tutorialmod/enchantment/lightning_striker.json
 d8f22c3349ce0b81a0c31c7753350d13aa7f75d0 data/tutorialmod/forge/biome_modifier/add_alexandrite_ore.json
 8e9d121445ca7ebf827bd5aade46bb83701e94d1 data/tutorialmod/forge/biome_modifier/add_end_alexandrite_ore.json
 22a6fda05a73cea2490c264d219411bc2a25f031 data/tutorialmod/forge/biome_modifier/add_nether_alexandrite_ore.json
+5a66b8fd5538674032a7b9a1d31b170d70163a77 data/tutorialmod/forge/biome_modifier/add_tree_walnut.json
 a3267fd8ebcfd96e5d3a4d1980aa7169e2f2bbd9 data/tutorialmod/trim_material/alexandrite.json
 a248f3d2ed7262ab9e3ba1194d67ffd6b2e0d1cb data/tutorialmod/trim_pattern/kaupen.json
 6c3b4b7bee2ecce1a4fdd11fc63a76a6f485214e data/tutorialmod/worldgen/configured_feature/alexandrite_ore.json
@@ -12,3 +13,4 @@ fcea5114d8ec720ab347904b1a42c220050414fe data/tutorialmod/worldgen/configured_fe
 a878c32f80fa6992970bbe9c1c5269550799c03b data/tutorialmod/worldgen/placed_feature/alexandrite_ore_placed.json
 42dcab9cd6fd7ed266dd60db7df878529389dd83 data/tutorialmod/worldgen/placed_feature/end_alexandrite_ore_placed.json
 4964dfd5c7678ea88e5a01c31135913aa790b196 data/tutorialmod/worldgen/placed_feature/nether_alexandrite_ore_placed.json
+28c6ee6469e1db8104df55b3617544f185f72fa5 data/tutorialmod/worldgen/placed_feature/walnut_placed.json
