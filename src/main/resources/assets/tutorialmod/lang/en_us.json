@@ -43,6 +43,15 @@
   "block.tutorialmod.alexandrite_end_ore": "Alexandrite End Ore",
   "block.tutorialmod.alexandrite_nether_ore": "Alexandrite Nether Ore",
 
+  "block.tutorialmod.walnut_log": "Walnut Log",
+  "block.tutorialmod.walnut_planks": "Walnut Planks",
+  "block.tutorialmod.walnut_wood": "Walnut Wood",
+  "block.tutorialmod.stripped_walnut_log": "Stripped Walnut Log",
+  "block.tutorialmod.stripped_walnut_wood": "Stripped Walnut Wood",
+  "block.tutorialmod.walnut_leaves": "Walnut Leaves",
+
+  "block.tutorialmod.walnut_sapling": "Walnut Sapling",
+
 
   "block.tutorialmod.magic_block": "Magic Block",
 

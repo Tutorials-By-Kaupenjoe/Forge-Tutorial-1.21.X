@@ -1,4 +1,4 @@
-// 1.21.1	2024-11-25T17:56:12.2954027	Loot Tables
+// 1.21.1	2024-11-27T19:30:01.8304998	Loot Tables
 082d4a4dfab54d4b7c02bf12577180f310c2d578 data/tutorialmod/loot_table/blocks/alexandrite_block.json
 46e710e38ef1ab93beb058251930a04c2cbddd5f data/tutorialmod/loot_table/blocks/alexandrite_button.json
 f7b3ea3062e84cdb440921da78ef9b4e238b3c06 data/tutorialmod/loot_table/blocks/alexandrite_deepslate_ore.json
@@ -17,3 +17,10 @@ de6ba9ec151941ccebacc14bac881676f4c6bc0c data/tutorialmod/loot_table/blocks/alex
 5cf871674dfe7e1bed09ad5d06d69fd3422bfd6c data/tutorialmod/loot_table/blocks/honey_berry_bush.json
 34ce942e7c28bc359a9f2aedc4c7a6eab2ba7248 data/tutorialmod/loot_table/blocks/kohlrabi_crop.json
 b019cac2fb4f4c4c0aca6b3a0ae079a8e6d74f56 data/tutorialmod/loot_table/blocks/raw_alexandrite_block.json
+6d329830a7ca80c19072cbc06165e2e127ba1e4d data/tutorialmod/loot_table/blocks/stripped_walnut_log.json
+68ddca79c951a25133b15d68c0b0f45c4b5b9caf data/tutorialmod/loot_table/blocks/stripped_walnut_wood.json
+bf3f7da9c0b3c6e747cd07b7bb7ac22b0ca06e55 data/tutorialmod/loot_table/blocks/walnut_leaves.json
+efbde07e205cace86f6092f006c11c93965052c9 data/tutorialmod/loot_table/blocks/walnut_log.json
+a662793e174399074ef7ac9b3e3c813dde43d632 data/tutorialmod/loot_table/blocks/walnut_planks.json
+90c730197333157c61207395aa11ecf37b44b1f9 data/tutorialmod/loot_table/blocks/walnut_sapling.json
+d989d4f93d11de10d78b6d44b396374298927aa8 data/tutorialmod/loot_table/blocks/walnut_wood.json
