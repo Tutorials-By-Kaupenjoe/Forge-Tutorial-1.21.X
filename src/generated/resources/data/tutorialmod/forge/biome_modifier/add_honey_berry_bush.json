@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:forest",
+    "minecraft:birch_forest"
+  ],
+  "features": "tutorialmod:honey_berry_bush_placed",
+  "step": "vegetal_decoration"
+}
