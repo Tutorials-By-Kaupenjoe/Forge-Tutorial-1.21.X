@@ -54,7 +54,7 @@ public class ModConfiguredFeatures {
                 BlockStateProvider.simple(ModBlocks.WALNUT_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(3), ConstantInt.of(3), 3),
 
-                new TwoLayersFeatureSize(1, 0, 2)).build());
+                new TwoLayersFeatureSize(1, 0, 2)).dirt(BlockStateProvider.simple(Blocks.END_STONE)).build());
 
     }
 
