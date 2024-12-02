@@ -3,9 +3,7 @@
   "category": "building",
   "group": "alexandrite",
   "key": {
-    "#": {
-      "item": "tutorialmod:alexandrite"
-    }
+    "#": "tutorialmod:alexandrite"
   },
   "pattern": [
     "#  ",

@@ -50,6 +50,9 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.STRIPPED_WALNUT_WOOD.get().asItem());
 
         tag(ItemTags.PLANKS)
-                .add(ModBlocks.WALNUT_PLANKS.get().asItem());
+                .add(ModBlocks.WALNUT_PLANKS.get().asItem());;
+
+        tag(ModTags.Items.ALEXANDRITE_REPAIRS)
+                .add(ModItems.ALEXANDRITE.get());
     }
 }

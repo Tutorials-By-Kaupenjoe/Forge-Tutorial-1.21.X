@@ -3,12 +3,8 @@
   "category": "redstone",
   "group": "alexandrite",
   "key": {
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "W": {
-      "item": "tutorialmod:alexandrite"
-    }
+    "#": "minecraft:stick",
+    "W": "tutorialmod:alexandrite"
   },
   "pattern": [
     "#W#",
