@@ -1,11 +1,16 @@
 package net.kaupenjoe.tutorialmod.entity.custom;
 
 import net.kaupenjoe.tutorialmod.entity.ModEntities;
+import net.kaupenjoe.tutorialmod.entity.TriceratopsVariant;
 import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.minecraft.Util;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.world.entity.AgeableMob;
-import net.minecraft.world.entity.AnimationState;
-import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.DifficultyInstance;
+import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.goal.*;
@@ -13,9 +18,13 @@ import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.ServerLevelAccessor;
 import org.jetbrains.annotations.Nullable;
 
 public class TriceratopsEntity extends Animal {
+    private static final EntityDataAccessor<Integer> VARIANT =
+            SynchedEntityData.defineId(TriceratopsEntity.class, EntityDataSerializers.INT);
+
     public final AnimationState idleAnimationState = new AnimationState();
     private int idleAnimationTimeout = 0;
 
@@ -72,5 +81,51 @@ public class TriceratopsEntity extends Animal {
         if(this.level().isClientSide()) {
             this.setupAnimationStates();
         }
+    }
+
+    /* VARIANT */
+    @Override
+    protected void defineSynchedData(SynchedEntityData.Builder pBuilder) {
+        super.defineSynchedData(pBuilder);
+        pBuilder.define(VARIANT, 0);
+    }
+
+    private int getTypeVariant() {
+        return this.entityData.get(VARIANT);
+    }
+
+    public TriceratopsVariant getVariant() {
+        return TriceratopsVariant.byId(this.getTypeVariant() & 255);
+    }
+
+    private void setVariant(TriceratopsVariant variant) {
+        this.entityData.set(VARIANT, variant.getId() & 255);
+    }
+
+    @Override
+    public void addAdditionalSaveData(CompoundTag pCompound) {
+        super.addAdditionalSaveData(pCompound);
+        pCompound.putInt("Variant", this.getTypeVariant());
+    }
+
+    @Override
+    public void readAdditionalSaveData(CompoundTag pCompound) {
+        super.readAdditionalSaveData(pCompound);
+        this.entityData.set(VARIANT, pCompound.getInt("Variant"));
+    }
+
+    @Override
+    public SpawnGroupData finalizeSpawn(ServerLevelAccessor pLevel, DifficultyInstance pDifficulty,
+                                        MobSpawnType pSpawnType, @Nullable SpawnGroupData pSpawnGroupData) {
+        TriceratopsVariant variant = Util.getRandom(TriceratopsVariant.values(), this.random);
+        this.setVariant(variant);
+        return super.finalizeSpawn(pLevel, pDifficulty, pSpawnType, pSpawnGroupData);
+    }
+
+    @Override
+    public void finalizeSpawnChildFromBreeding(ServerLevel pLevel, Animal pAnimal, @Nullable AgeableMob pBaby) {
+        TriceratopsVariant variant = Util.getRandom(TriceratopsVariant.values(), this.random);
+        ((TriceratopsEntity) pBaby).setVariant(variant);
+        super.finalizeSpawnChildFromBreeding(pLevel, pAnimal, pBaby);
     }
 }
