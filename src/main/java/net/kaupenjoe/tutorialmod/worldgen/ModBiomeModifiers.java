@@ -1,6 +1,7 @@
 package net.kaupenjoe.tutorialmod.worldgen;
 
 import net.kaupenjoe.tutorialmod.TutorialMod;
+import net.kaupenjoe.tutorialmod.entity.ModEntities;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -8,10 +9,13 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BiomeTags;
 import net.minecraft.world.level.biome.Biomes;
+import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraftforge.common.world.BiomeModifier;
 import net.minecraftforge.common.world.ForgeBiomeModifiers;
 import net.minecraftforge.registries.ForgeRegistries;
+
+import java.util.List;
 
 public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_ALEXANDRITE_ORE = registerKey("add_alexandrite_ore");
@@ -21,6 +25,8 @@ public class ModBiomeModifiers {
     public static final ResourceKey<BiomeModifier> ADD_WALNUT_TREE = registerKey("add_tree_walnut");
 
     public static final ResourceKey<BiomeModifier> ADD_HONEY_BERRY_BUSH = registerKey("add_honey_berry_bush");
+
+    public static final ResourceKey<BiomeModifier> SPAWN_TRICERATOPS = registerKey("spawn_triceratops");
 
     public static void bootstrap(BootstrapContext<BiomeModifier> context) {
         var placedFeature = context.lookup(Registries.PLACED_FEATURE);
@@ -56,6 +62,10 @@ public class ModBiomeModifiers {
                 HolderSet.direct(biomes.getOrThrow(Biomes.FOREST), biomes.getOrThrow(Biomes.BIRCH_FOREST)),
                 HolderSet.direct(placedFeature.getOrThrow(ModPlacedFeatures.HONEY_BERRY_BUSH_PLACED_KEY)),
                 GenerationStep.Decoration.VEGETAL_DECORATION));
+
+        context.register(SPAWN_TRICERATOPS, new ForgeBiomeModifiers.AddSpawnsBiomeModifier(
+                HolderSet.direct(biomes.getOrThrow(Biomes.BAMBOO_JUNGLE), biomes.getOrThrow(Biomes.PLAINS)),
+                List.of(new MobSpawnSettings.SpawnerData(ModEntities.TRICERATOPS.get(), 25, 3, 5))));
 
     }
 

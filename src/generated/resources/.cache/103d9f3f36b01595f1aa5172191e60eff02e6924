@@ -1,10 +1,11 @@
-// 1.21.1	2024-11-28T09:53:49.5376779	Registries
+// 1.21.1	2024-12-09T16:10:02.3843654	Registries
 f8fc89db04b1bb78edcee8546fdcb549ad3a97f2 data/tutorialmod/enchantment/lightning_striker.json
 d8f22c3349ce0b81a0c31c7753350d13aa7f75d0 data/tutorialmod/forge/biome_modifier/add_alexandrite_ore.json
 8e9d121445ca7ebf827bd5aade46bb83701e94d1 data/tutorialmod/forge/biome_modifier/add_end_alexandrite_ore.json
 55d211ba50237feeb62411193509adb8542484d4 data/tutorialmod/forge/biome_modifier/add_honey_berry_bush.json
 22a6fda05a73cea2490c264d219411bc2a25f031 data/tutorialmod/forge/biome_modifier/add_nether_alexandrite_ore.json
 5a66b8fd5538674032a7b9a1d31b170d70163a77 data/tutorialmod/forge/biome_modifier/add_tree_walnut.json
+9b8c2770eba4356319b70a5bd6898a9d992ed0c3 data/tutorialmod/forge/biome_modifier/spawn_triceratops.json
 a3267fd8ebcfd96e5d3a4d1980aa7169e2f2bbd9 data/tutorialmod/trim_material/alexandrite.json
 a248f3d2ed7262ab9e3ba1194d67ffd6b2e0d1cb data/tutorialmod/trim_pattern/kaupen.json
 6c3b4b7bee2ecce1a4fdd11fc63a76a6f485214e data/tutorialmod/worldgen/configured_feature/alexandrite_ore.json

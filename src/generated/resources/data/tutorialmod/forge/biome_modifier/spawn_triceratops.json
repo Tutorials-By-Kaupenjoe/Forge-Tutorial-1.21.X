@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "minecraft:bamboo_jungle",
+    "minecraft:plains"
+  ],
+  "spawners": {
+    "type": "tutorialmod:triceratops",
+    "maxCount": 5,
+    "minCount": 3,
+    "weight": 25
+  }
+}
