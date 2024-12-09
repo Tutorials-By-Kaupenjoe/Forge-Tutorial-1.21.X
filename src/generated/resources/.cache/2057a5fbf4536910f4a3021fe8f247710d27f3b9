@@ -1,4 +1,4 @@
-// 1.21.1	2024-11-27T19:30:01.8671631	Item Models: tutorialmod
+// 1.21.1	2024-12-09T14:33:18.8132055	Item Models: tutorialmod
 9c36309b9b22da0f2a38fda68096fcc3013c449b assets/tutorialmod/models/item/alexandrite.json
 073373f3fe2f1164adae1d7cdcb2e21c2c4c821e assets/tutorialmod/models/item/alexandrite_axe.json
 fab521949bb8b5526d5f1e145bf1b1dca7ea8e14 assets/tutorialmod/models/item/alexandrite_boots.json
@@ -62,4 +62,5 @@ b4d76c98e3f66c7f9fe3667a7292ab19b617b44a assets/tutorialmod/models/item/honey_be
 35fc7dc4a05adc5b9d9bec5dfe1468735a1cc001 assets/tutorialmod/models/item/kohlrabi.json
 ade71b0b23199457854c018cfb8f4f7404d25b56 assets/tutorialmod/models/item/kohlrabi_seeds.json
 618bcb87cb7acab7c54afbe2ed857af447c05872 assets/tutorialmod/models/item/raw_alexandrite.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/tutorialmod/models/item/triceratops_spawn_egg.json
 b2861b578ed39fd2e1220f08e26953cf4154c1f8 assets/tutorialmod/models/item/walnut_sapling.json

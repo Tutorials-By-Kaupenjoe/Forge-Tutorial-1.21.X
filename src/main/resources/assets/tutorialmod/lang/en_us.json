@@ -34,6 +34,8 @@
   "item.tutorialmod.kohlrabi_seeds": "Kohlrabi Seeds",
   "item.tutorialmod.honey_berries": "Honey Berries",
 
+  "item.tutorialmod.triceratops_spawn_egg": "Triceratops Spawn Egg",
+
 
   "block.tutorialmod.alexandrite_block": "Block of Alexandrite",
   "block.tutorialmod.raw_alexandrite_block": "Block of Raw Alexandrite",
@@ -96,5 +98,7 @@
   "tooltip.tutorialmod.kohlrabi": "This tastes GREAT!",
 
   "trim_pattern.tutorialmod.kaupen": "Kaupen Armor Trim",
-  "trim_material.tutorialmod.alexandrite": "Alexandrite Material"
+  "trim_material.tutorialmod.alexandrite": "Alexandrite Material",
+
+  "entity.tutorialmod.triceratops": "Triceratops"
 }
