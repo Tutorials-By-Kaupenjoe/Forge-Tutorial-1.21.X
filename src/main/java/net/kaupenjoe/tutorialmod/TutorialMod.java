@@ -6,6 +6,7 @@ import net.kaupenjoe.tutorialmod.component.ModDataComponentTypes;
 import net.kaupenjoe.tutorialmod.effect.ModEffects;
 import net.kaupenjoe.tutorialmod.enchantment.ModEnchantmentEffects;
 import net.kaupenjoe.tutorialmod.entity.ModEntities;
+import net.kaupenjoe.tutorialmod.entity.client.TomahawkProjectileRenderer;
 import net.kaupenjoe.tutorialmod.entity.client.TriceratopsRenderer;
 import net.kaupenjoe.tutorialmod.item.ModCreativeModeTabs;
 import net.kaupenjoe.tutorialmod.item.ModItems;
@@ -97,6 +98,7 @@ public class TutorialMod {
             ModItemProperties.addCustomItemProperties();
 
             EntityRenderers.register(ModEntities.TRICERATOPS.get(), TriceratopsRenderer::new);
+            EntityRenderers.register(ModEntities.TOMAHAWK.get(), TomahawkProjectileRenderer::new);
         }
     }
 }

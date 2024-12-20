@@ -3,10 +3,7 @@ package net.kaupenjoe.tutorialmod.item;
 import net.kaupenjoe.tutorialmod.TutorialMod;
 import net.kaupenjoe.tutorialmod.block.ModBlocks;
 import net.kaupenjoe.tutorialmod.entity.ModEntities;
-import net.kaupenjoe.tutorialmod.item.custom.ChiselItem;
-import net.kaupenjoe.tutorialmod.item.custom.FuelItem;
-import net.kaupenjoe.tutorialmod.item.custom.HammerItem;
-import net.kaupenjoe.tutorialmod.item.custom.ModArmorItem;
+import net.kaupenjoe.tutorialmod.item.custom.*;
 import net.kaupenjoe.tutorialmod.sound.ModSounds;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -96,6 +93,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> TRICERATOPS_SPAWN_EGG = ITEMS.register("triceratops_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.TRICERATOPS, 0x53524b, 0xdac741, new Item.Properties()));
+
+    public static final RegistryObject<Item> TOMAHAWK = ITEMS.register("tomahawk",
+            () -> new TomahawkItem(new Item.Properties().stacksTo(16)));
 
 
     public static void register(IEventBus eventBus) {
