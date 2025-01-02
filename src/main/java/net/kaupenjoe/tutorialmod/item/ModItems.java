@@ -97,6 +97,9 @@ public class ModItems {
     public static final RegistryObject<Item> TOMAHAWK = ITEMS.register("tomahawk",
             () -> new TomahawkItem(new Item.Properties().stacksTo(16)));
 
+    public static final RegistryObject<Item> RADIATION_STAFF = ITEMS.register("radiation_staff",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
