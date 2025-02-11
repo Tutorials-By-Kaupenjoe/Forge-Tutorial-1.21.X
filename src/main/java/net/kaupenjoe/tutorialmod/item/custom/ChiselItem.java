@@ -2,6 +2,7 @@ package net.kaupenjoe.tutorialmod.item.custom;
 
 import net.kaupenjoe.tutorialmod.block.ModBlocks;
 import net.kaupenjoe.tutorialmod.component.ModDataComponentTypes;
+import net.kaupenjoe.tutorialmod.particle.ModParticles;
 import net.kaupenjoe.tutorialmod.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.multiplayer.ClientLevel;
@@ -61,6 +62,10 @@ public class ChiselItem extends Item {
                 ((ServerLevel) level).sendParticles(ParticleTypes.HAPPY_VILLAGER,
                         pContext.getClickedPos().getX() + 0.5, pContext.getClickedPos().getY() + 1.5,
                         pContext.getClickedPos().getZ() + 0.5, 5, 0, 0, 0, 3);
+
+                ((ServerLevel) level).sendParticles(ModParticles.ALEXANDRITE_PARTICLES.get(),
+                        pContext.getClickedPos().getX() + 0.5, pContext.getClickedPos().getY() + 1.0,
+                        pContext.getClickedPos().getZ() + 0.5, 8, 0, 0, 0, 2);
 
                 pContext.getItemInHand().set(ModDataComponentTypes.COORDINATES.get(), pContext.getClickedPos());
             }
