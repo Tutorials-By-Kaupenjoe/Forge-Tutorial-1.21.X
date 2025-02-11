@@ -1,0 +1,9 @@
+{
+  "entries": [
+    "tutorialmod:kohlrabi_from_creeper",
+    "tutorialmod:kohlrabi_seeds_from_short_grass",
+    "tutorialmod:chisel_from_jungle_temple",
+    "tutorialmod:kohlrabi_seeds_to_tall_grass"
+  ],
+  "replace": false
+}

@@ -1,0 +1,19 @@
+{
+  "type": "tutorialmod:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:entities/creeper"
+        },
+        {
+          "chance": 0.5,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ],
+  "item": "tutorialmod:kohlrabi"
+}

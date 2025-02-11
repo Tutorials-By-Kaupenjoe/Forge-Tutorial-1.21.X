@@ -1,0 +1,6 @@
+// 1.21.1	2025-02-11T16:43:18.5871094	Global Loot Modifiers : tutorialmod
+59457fca87879040682ef3bbc3eb6d0d7b2f4c45 data/forge/loot_modifiers/global_loot_modifiers.json
+5f500d5524374b975993858bcb81af11d1000201 data/tutorialmod/loot_modifiers/chisel_from_jungle_temple.json
+b848732cc5f5e884ca17a6263dd36e45bf6ab21d data/tutorialmod/loot_modifiers/kohlrabi_from_creeper.json
+c92407860eb4bb42b8a93d01726c8490e8f6143b data/tutorialmod/loot_modifiers/kohlrabi_seeds_from_short_grass.json
+8cf149c61cb7193aa042131eabd2b7c631cfe0d3 data/tutorialmod/loot_modifiers/kohlrabi_seeds_to_tall_grass.json
