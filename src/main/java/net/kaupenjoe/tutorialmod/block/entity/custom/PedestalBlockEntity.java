@@ -31,9 +31,18 @@ public class PedestalBlockEntity extends BlockEntity {
             }
         }
     };
+    private float rotation;
 
     public PedestalBlockEntity(BlockPos pPos, BlockState pBlockState) {
         super(ModBlockEntities.PEDESTAL_BE.get(), pPos, pBlockState);
+    }
+
+    public float getRenderingRotation() {
+        rotation += 0.5f;
+        if(rotation >= 360) {
+            rotation = 0;
+        }
+        return rotation;
     }
 
     public void clearContents() {
