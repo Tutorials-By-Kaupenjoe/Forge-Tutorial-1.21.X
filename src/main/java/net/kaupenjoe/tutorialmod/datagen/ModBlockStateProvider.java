@@ -76,6 +76,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         leavesBlock(ModBlocks.WALNUT_LEAVES);
         saplingBlock(ModBlocks.WALNUT_SAPLING);
+
+        blockWithItem(ModBlocks.GROWTH_CHAMBER);
     }
 
     private void saplingBlock(RegistryObject<Block> blockRegistryObject) {

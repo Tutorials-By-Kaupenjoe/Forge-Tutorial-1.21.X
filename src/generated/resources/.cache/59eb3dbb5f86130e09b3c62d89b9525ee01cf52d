@@ -1,4 +1,4 @@
-// 1.21.1	2025-02-11T16:43:18.5881098	Loot Tables
+// 1.21.1	2025-03-03T14:54:48.0908054	Loot Tables
 082d4a4dfab54d4b7c02bf12577180f310c2d578 data/tutorialmod/loot_table/blocks/alexandrite_block.json
 46e710e38ef1ab93beb058251930a04c2cbddd5f data/tutorialmod/loot_table/blocks/alexandrite_button.json
 f7b3ea3062e84cdb440921da78ef9b4e238b3c06 data/tutorialmod/loot_table/blocks/alexandrite_deepslate_ore.json
@@ -15,8 +15,10 @@ de6ba9ec151941ccebacc14bac881676f4c6bc0c data/tutorialmod/loot_table/blocks/alex
 02cfd02eadfa7df2c31c900ae837e324bff75ded data/tutorialmod/loot_table/blocks/alexandrite_trapdoor.json
 31070ef777bbb4e9bfa7948918cd4ea4f1b40351 data/tutorialmod/loot_table/blocks/alexandrite_wall.json
 b1b90ee2a4a3ed439bf88673d91b911796a43ba5 data/tutorialmod/loot_table/blocks/chair.json
+4f1efb8da89a2838693b6df2a685fabebdd44d2b data/tutorialmod/loot_table/blocks/growth_chamber.json
 5cf871674dfe7e1bed09ad5d06d69fd3422bfd6c data/tutorialmod/loot_table/blocks/honey_berry_bush.json
 34ce942e7c28bc359a9f2aedc4c7a6eab2ba7248 data/tutorialmod/loot_table/blocks/kohlrabi_crop.json
+f86699c8dc14a6860f20848e86fb53f071baf9d5 data/tutorialmod/loot_table/blocks/pedestal.json
 b019cac2fb4f4c4c0aca6b3a0ae079a8e6d74f56 data/tutorialmod/loot_table/blocks/raw_alexandrite_block.json
 6d329830a7ca80c19072cbc06165e2e127ba1e4d data/tutorialmod/loot_table/blocks/stripped_walnut_log.json
 68ddca79c951a25133b15d68c0b0f45c4b5b9caf data/tutorialmod/loot_table/blocks/stripped_walnut_wood.json

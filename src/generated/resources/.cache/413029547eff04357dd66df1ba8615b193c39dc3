@@ -1,4 +1,4 @@
-// 1.21.1	2024-11-27T19:30:01.8606998	Block States: tutorialmod
+// 1.21.1	2025-03-03T14:54:48.0918056	Block States: tutorialmod
 7c6591dd4625650ca96ebbc6d3a76d48269f7b5f assets/tutorialmod/blockstates/alexandrite_block.json
 8b91742500e57f298bbae371c3c795c8fd06d8a1 assets/tutorialmod/blockstates/alexandrite_button.json
 4c05954150db7f41bdd1b6daaf910946b05c70da assets/tutorialmod/blockstates/alexandrite_deepslate_ore.json
@@ -14,6 +14,7 @@ a89bb58a9d05b37b512f581ca7a765921ebbe91c assets/tutorialmod/blockstates/alexandr
 1099ed96a16094cdd3c9a2bf2de1ceaacec53ea4 assets/tutorialmod/blockstates/alexandrite_stairs.json
 86d644d5231dda8cffce86a3fbf3a723c9aed7ec assets/tutorialmod/blockstates/alexandrite_trapdoor.json
 e69422aa6fd50918326b2073e65d3b9770c68b7a assets/tutorialmod/blockstates/alexandrite_wall.json
+4115fbde62c46de50c9bdd4c5185774b7caa3744 assets/tutorialmod/blockstates/growth_chamber.json
 122234d5a08c337bde3aa74fc23731cf53f4d7c8 assets/tutorialmod/blockstates/honey_berry_bush.json
 eb12eb1e24efe457872101fc83f3c2c6c52b0ecd assets/tutorialmod/blockstates/kohlrabi_crop.json
 2d316979b5247b802b0590d94b40bac75fde6974 assets/tutorialmod/blockstates/magic_block.json
@@ -61,6 +62,7 @@ ea5f60803d2b7e420e2db0625ae4457afb1b0b28 assets/tutorialmod/models/block/alexand
 b4454df837ee3393b042b0123c5a4e00c982d49b assets/tutorialmod/models/block/alexandrite_wall_post.json
 778c3faa807a1e2bd6fce9ba84b5034c27ba9d76 assets/tutorialmod/models/block/alexandrite_wall_side.json
 3a67e84551b38f8b9a27cbf2482db60058b5c8ae assets/tutorialmod/models/block/alexandrite_wall_side_tall.json
+cbb3bc31e1f24886a4fb63da2c924e96efc143b3 assets/tutorialmod/models/block/growth_chamber.json
 25d7c079d29badebe2aa20c3f5d1ea020d53cc0a assets/tutorialmod/models/block/honey_berry_bush_stage0.json
 b2969c59ca9530916018e2698451af82bab742f8 assets/tutorialmod/models/block/honey_berry_bush_stage1.json
 c6293fcfb1d0dd03a313909e2f1dc57e67abb74a assets/tutorialmod/models/block/honey_berry_bush_stage2.json
@@ -96,6 +98,7 @@ c52528bd72e408d42cb3ee559279c54ba1baa272 assets/tutorialmod/models/item/alexandr
 db991a6b2d8c2c5d21973bd8b0b71ba01242de9a assets/tutorialmod/models/item/alexandrite_slab.json
 130843caf95c563e4a8c83d14a3c0171954fd6cb assets/tutorialmod/models/item/alexandrite_stairs.json
 095530aa775d81b20f3266ec7f12f8b59c34f2a6 assets/tutorialmod/models/item/alexandrite_trapdoor.json
+f68e1da70ddf5ed5d9ff551c1ed71028ce7c0907 assets/tutorialmod/models/item/growth_chamber.json
 db3c7fd404543728f8b989bee0ca68018dac6e79 assets/tutorialmod/models/item/magic_block.json
 fbd52dbab1a438174add57631748ebf322559b3c assets/tutorialmod/models/item/raw_alexandrite_block.json
 38a06b6434c82bb5f782ee02f34a1d1444936d86 assets/tutorialmod/models/item/stripped_walnut_log.json

@@ -18,6 +18,7 @@ import net.kaupenjoe.tutorialmod.particle.AlexandriteParticles;
 import net.kaupenjoe.tutorialmod.particle.ModParticles;
 import net.kaupenjoe.tutorialmod.potion.ModPotions;
 import net.kaupenjoe.tutorialmod.screen.ModMenuTypes;
+import net.kaupenjoe.tutorialmod.screen.custom.GrowthChamberScreen;
 import net.kaupenjoe.tutorialmod.screen.custom.PedestalScreen;
 import net.kaupenjoe.tutorialmod.sound.ModSounds;
 import net.kaupenjoe.tutorialmod.util.ModItemProperties;
@@ -123,6 +124,7 @@ public class TutorialMod {
             EntityRenderers.register(ModEntities.CHAIR.get(), ChairRenderer::new);
 
             MenuScreens.register(ModMenuTypes.PEDESTAL_MENU.get(), PedestalScreen::new);
+            MenuScreens.register(ModMenuTypes.GROWTH_CHAMBER_MENU.get(), GrowthChamberScreen::new);
         }
 
         @SubscribeEvent
