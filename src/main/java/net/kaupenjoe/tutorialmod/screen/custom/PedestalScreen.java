@@ -28,4 +28,10 @@ public class PedestalScreen extends AbstractContainerScreen<PedestalMenu> {
 
         pGuiGraphics.blit(GUI_TEXTURE, x, y, 0, 0, imageWidth, imageHeight);
     }
+
+    @Override
+    public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float delta) {
+        super.render(guiGraphics, mouseX, mouseY, delta);
+        renderTooltip(guiGraphics, mouseX, mouseY);
+    }
 }
