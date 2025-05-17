@@ -13,7 +13,7 @@ import net.minecraft.resources.ResourceLocation;
 
 import java.util.Map;
 
-public class TriceratopsRenderer extends MobRenderer<TriceratopsEntity, TriceratopsModel<TriceratopsEntity>> {
+public class TriceratopsRenderer extends MobRenderer<TriceratopsEntity, TriceratopsRenderState, TriceratopsModel<TriceratopsEntity>> {
     private static final Map<TriceratopsVariant, ResourceLocation> LOCATION_BY_VARIANT =
             Util.make(Maps.newEnumMap(TriceratopsVariant.class), map -> {
                 map.put(TriceratopsVariant.GRAY,
@@ -27,19 +27,30 @@ public class TriceratopsRenderer extends MobRenderer<TriceratopsEntity, Tricerat
     }
 
     @Override
-    public ResourceLocation getTextureLocation(TriceratopsEntity pEntity) {
-        return LOCATION_BY_VARIANT.get(pEntity.getVariant());
+    public ResourceLocation getTextureLocation(TriceratopsRenderState state) {
+        return LOCATION_BY_VARIANT.get(state.variant);
     }
 
     @Override
-    public void render(TriceratopsEntity pEntity, float pEntityYaw, float pPartialTicks, PoseStack pPoseStack,
-                       MultiBufferSource pBuffer, int pPackedLight) {
-        if(pEntity.isBaby()) {
+    public void render(TriceratopsRenderState state, PoseStack pPoseStack, MultiBufferSource pBuffer, int pPackedLight) {
+        if(state.isBaby) {
             pPoseStack.scale(0.5f, 0.5f, 0.5f);
         } else {
             pPoseStack.scale(1f, 1f, 1f);
         }
 
-        super.render(pEntity, pEntityYaw, pPartialTicks, pPoseStack, pBuffer, pPackedLight);
+        super.render(state, pPoseStack, pBuffer, pPackedLight);
+    }
+
+    @Override
+    public TriceratopsRenderState createRenderState() {
+        return new TriceratopsRenderState();
+    }
+
+    @Override
+    public void extractRenderState(TriceratopsEntity pEntity, TriceratopsRenderState pReusedState, float pPartialTick) {
+        super.extractRenderState(pEntity, pReusedState, pPartialTick);
+        pReusedState.idleAnimationState.copyFrom(pEntity.idleAnimationState);
+        pReusedState.variant = pEntity.getVariant();
     }
 }

@@ -35,7 +35,7 @@ public class HoneyBerryBushBlock extends SweetBerryBushBlock {
             BlockState blockstate = pState.setValue(AGE, Integer.valueOf(1));
             pLevel.setBlock(pPos, blockstate, 2);
             pLevel.gameEvent(GameEvent.BLOCK_CHANGE, pPos, GameEvent.Context.of(pPlayer, blockstate));
-            return InteractionResult.sidedSuccess(pLevel.isClientSide);
+            return InteractionResult.SUCCESS;
         } else {
             return super.useWithoutItem(pState, pLevel, pPos, pPlayer, pHitResult);
         }

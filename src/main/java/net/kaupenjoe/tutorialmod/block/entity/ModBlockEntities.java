@@ -10,17 +10,19 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Set;
+
 public class ModBlockEntities {
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES =
             DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, TutorialMod.MOD_ID);
 
     public static final RegistryObject<BlockEntityType<PedestalBlockEntity>> PEDESTAL_BE =
-            BLOCK_ENTITIES.register("pedestal_be", () -> BlockEntityType.Builder.of(
-                    PedestalBlockEntity::new, ModBlocks.PEDESTAL.get()).build(null));
+            BLOCK_ENTITIES.register("pedestal_be", () -> new BlockEntityType<>(
+                    PedestalBlockEntity::new, Set.of(ModBlocks.PEDESTAL.get())));
 
     public static final RegistryObject<BlockEntityType<GrowthChamberBlockEntity>> GROWTH_CHAMBER_BE =
-            BLOCK_ENTITIES.register("growth_chamber_be", () -> BlockEntityType.Builder.of(
-                    GrowthChamberBlockEntity::new, ModBlocks.GROWTH_CHAMBER.get()).build(null));
+            BLOCK_ENTITIES.register("growth_chamber_be", () -> new BlockEntityType<>(
+                    GrowthChamberBlockEntity::new, Set.of(ModBlocks.GROWTH_CHAMBER.get())));
 
 
 

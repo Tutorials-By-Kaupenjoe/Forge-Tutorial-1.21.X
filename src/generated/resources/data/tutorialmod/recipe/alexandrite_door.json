@@ -3,9 +3,7 @@
   "category": "redstone",
   "group": "alexandrite",
   "key": {
-    "#": {
-      "item": "tutorialmod:alexandrite"
-    }
+    "#": "tutorialmod:alexandrite"
   },
   "pattern": [
     "##",

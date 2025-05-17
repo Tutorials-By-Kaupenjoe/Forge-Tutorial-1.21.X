@@ -42,6 +42,9 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(ItemTags.TRIM_TEMPLATES)
                 .add(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
 
+        tag(ModTags.Items.ALEXANDRITE_REPAIRABLE)
+                .add(ModItems.ALEXANDRITE.get());
+
 
         tag(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.WALNUT_LOG.get().asItem())

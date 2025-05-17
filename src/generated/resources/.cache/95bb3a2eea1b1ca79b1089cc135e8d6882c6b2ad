@@ -1,4 +1,4 @@
-// 1.21.1	2025-02-11T16:43:18.5871094	Global Loot Modifiers : tutorialmod
+// 1.21.3	2025-05-17T21:10:53.6030805	Global Loot Modifiers : tutorialmod
 59457fca87879040682ef3bbc3eb6d0d7b2f4c45 data/forge/loot_modifiers/global_loot_modifiers.json
 5f500d5524374b975993858bcb81af11d1000201 data/tutorialmod/loot_modifiers/chisel_from_jungle_temple.json
 b848732cc5f5e884ca17a6263dd36e45bf6ab21d data/tutorialmod/loot_modifiers/kohlrabi_from_creeper.json

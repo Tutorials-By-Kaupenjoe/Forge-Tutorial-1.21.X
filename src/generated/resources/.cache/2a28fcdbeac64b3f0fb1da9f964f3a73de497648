@@ -1,7 +1,8 @@
-// 1.21.1	2024-11-27T19:30:01.8606998	Tags for minecraft:item mod id tutorialmod
+// 1.21.3	2025-05-17T21:10:53.6060811	Tags for minecraft:item mod id tutorialmod
 ef45f1b8a92b3abe5885e200f9c776fb5c81c75e data/minecraft/tags/item/logs_that_burn.json
 d1c7c72e17ef63bf753538499e9469c4b7d22813 data/minecraft/tags/item/planks.json
 dccc833b523f992498faca85f6f541c082859baf data/minecraft/tags/item/trimmable_armor.json
 5b138b4dd385ab003305f0e18a2bfb5564a9e025 data/minecraft/tags/item/trim_materials.json
 3785ccf2250da2396658a0921bd6f81beb1f7be9 data/minecraft/tags/item/trim_templates.json
+5b138b4dd385ab003305f0e18a2bfb5564a9e025 data/tutorialmod/tags/item/alexandrite_repairables.json
 62546ee5275966887a59aa174122b299c222c977 data/tutorialmod/tags/item/transformable_items.json

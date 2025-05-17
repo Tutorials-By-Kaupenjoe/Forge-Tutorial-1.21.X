@@ -3,9 +3,7 @@
   "category": "redstone",
   "group": "alexandrite",
   "ingredients": [
-    {
-      "item": "tutorialmod:alexandrite"
-    }
+    "tutorialmod:alexandrite"
   ],
   "result": {
     "count": 1,
